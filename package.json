@@ -8,8 +8,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
+    "dev:debug": "NODE_OPTIONS='--inspect' next",
+    "export": "next export",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 8080",
     "type-check": "tsc --noEmit",
     "prepare": "husky install",
     "pre-commit": "yarn pretty-quick --staged",
