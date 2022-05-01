@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@types/node": "15.x",
-    "@types/react": "17.x",
+    "@types/react": "18.x",
     "husky": "7.x",
     "prettier": "2.x",
     "pretty-quick": "3.x",
